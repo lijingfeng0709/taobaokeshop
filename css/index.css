@@ -1,0 +1,48 @@
+body{
+	font-family:微软雅黑;
+	
+	}
+.flnotice{
+	margin-top:2em;
+	margin-bottom:0.5em;
+	font-family:黑体;
+	color:#333;
+	}
+.flnotice1{
+
+	font-family:黑体;
+	color:#333;
+	}
+.myButton {
+	background-color:#09F; width:120px; height:40px; border:thin; cursor:pointer; color:#FFF; font-family:楷体;-webkit-transition:background 0.3s; font-size:15pt;
+
+	}
+.myButton:hover {
+	background-color:#e4685d;
+}
+.myButton:active {
+
+	top:1px;
+}
+.seacher{width:500px; height:30px; font-size:15px; border:2px #F00 solid;line-height:30px;}
+.seacherbt{cursor:pointer;background:#F00;width:50px; height:30px; line-height:30px; font-size:15px; border:2px #F00 solid;text-align:center; color:#FFF; margin-left:-5px}
+.huakuai{
+	width:40px;
+	height:40px;
+	background-color:#666;
+	text-align:center;
+	font-size:30px;
+	opacity:0.1;
+	line-height:40px;
+	}
+.huakuai:hover{
+	cursor:pointer;
+	opacity:0.7;
+	}
+	img{
+		border:none;}
+		
+		
+		.test{
+			font-size:15px;
+		}

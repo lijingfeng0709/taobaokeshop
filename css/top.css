@@ -1,0 +1,65 @@
+* {
+	bgcolor: transparent;
+	margin: 0 auto;
+	padding: 0 auto;
+}
+.daohang {
+	font: 15pt 微软雅黑;
+	height: 30px;
+	width:100px;
+	background:#FFF;
+	display:inline-block;
+	/*vertical-align:text-bottom;*/
+}
+.test{
+	width:912px;
+    min-width:900px; 
+	position:relative;
+	background-color:rgb(255,255,255);
+	/*border-bottom-color:#096;
+	border-bottom-width:thin;
+	border-bottom-style:dashed;*/
+	}
+.test img{
+	bottom:-50px;
+	}
+.daohang:hover{
+	background:#F00;
+	}
+.lianjie {
+	color: #000;
+	padding-top: 0;
+}
+.test a:hover {
+	color: #FFF;
+	text-decoration: none;
+}
+.beijing {
+	border-color: #060;
+	background-color: #FC0;
+	height: 50px;
+	width: 60px;
+	font: 15pt, 黑体;
+}
+.test a:link {
+	text-decoration: none;
+}
+.test a:hover {
+	text-decoration: none;
+}
+.test a:visited {
+	text-decoration: none;
+}
+.test a:active {
+	text-decoration: none;
+}
+.test hr{
+	 border:1 dashed #F33; margin-top:0px;
+	 width:100%; size=2px; color:#F33
+	}
+.topframe{
+	width:100%;
+	border-bottom-color:#096;
+	border-bottom-width:thin;
+	border-bottom-style:dashed;
+}

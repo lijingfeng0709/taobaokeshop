@@ -1,0 +1,85 @@
+/*!
+ * Bootstrap v3.3.0 (http://getbootstrap.com)
+ * Copyright 2011-2014 Twitter, Inc.
+ * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
+ */
+
+/*! normalize.css v3.0.2 | MIT License | git.io/normalize */
+html {
+  font-family: sans-serif;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+.huakuai{
+	width:50px;
+	height:50px;
+	background-color:#666;
+	text-align:center;
+	font-size:38px;
+	opacity:0.3;
+	}
+.goodsframe{
+	width:912px;
+	font-size:0px;
+	/*border:1px solid #999;*/
+	height:auto;
+	background-color:rgb(255,255,255);
+	}
+.cell{
+	border:1px solid #999;
+	width:222px;
+	height:310px;
+	margin-top:10px;
+	margin-left:5px;
+	display:inline-block;
+	}
+.cellfirst{
+	float:left;
+	margin-left:0px;
+	}
+.celllast{
+	float:right;
+	margin-right:0px;
+	}
+.cell img{
+	border:0;}
+.dianpustyle{
+	width:22px;height:22px;float:right; margin-right:5px; margin-top:-3px;
+	}
+a:link{color:#464646;	text-decoration:none;}a:visited{color:#464646;	text-decoration:none;} a:hover{color:#F00;	text-decoration:none;}
+.pic {
+	padding-left: 5px;
+	padding-top: 5px;
+}
+.bt {
+	margin-top:10px;
+	margin-bottom:5px;
+	font-size: 13px;
+	margin-left:5px;
+	margin-right:5px;
+	z-index:-1;
+	overflow:hidden;
+	width:215px;
+	height:35px;
+
+}
+.jiage {
+	margin-top:5px;
+	font-size:15px;
+	font-weight:bold;
+	padding-left:5px;
+	color:#F00;
+}
+.y{
+	margin-top:10px;
+	font-size:12px;
+	text-decoration:line-through;
+	color:#999;
+}
+.xiaoliang{
+	font-family:微软雅黑;
+	font-size:13px;
+	color:#333;
+	padding-left:5px;
+	margin-top:5px;}
+/*# sourceMappingURL=bootstrap.css.map */

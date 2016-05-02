@@ -1,0 +1,21 @@
+@charset "utf-8";
+/* CSS Document */
+.shoprecommend{
+	width:150px;
+	background-color:#999;
+	display:inline-block;
+	margin-left:30px;}
+.shoprecommend li{
+	list-style:none;
+	border-bottom:1px #000099 dashed;
+	margin-top:5px;
+	padding-right:.5em;
+	padding-left:.5em;
+	overflow:hidden;
+	display:block;
+	height:30px;
+	line-height:30px;
+	}
+.title{
+		padding-left:.5em;
+	}

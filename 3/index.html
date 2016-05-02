@@ -1,0 +1,116 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>007</title><link rel="shortcut icon" href="../icon.png" >
+<script src="../Scripts/jquery.js"></script>
+<link href="../css/goods.css" rel="stylesheet" type="text/css" />
+<link href="../css/buttom.css" rel="stylesheet" type="text/css"  />
+<link href="../css/top.css" rel="stylesheet" type="text/css"  />
+</head>
+<script src="../Scripts/zh.js"></script>
+<body style="margin:0px; padding:0px;">
+
+<script>
+htmlobj=$.ajax({url:"../top/index.html",async:false});
+document.write(htmlobj.responseText);
+
+</script>
+<script type="text/javascript">
+function dosht(jsondata){
+$(".tet").append(jsondata[0]);
+}
+function dosht1(jsondata){
+//document.write(jsondata[0]);
+$(".goodsframe").append(jsondata[0]);
+}
+</script>
+<div class="tet">
+<script  src="http://1.moblieshoptest.applinzi.com/api/inidata.php?contant=羽绒服女&callback1=dosht"></script></div>
+<script  src="http://1.moblieshoptest.applinzi.com/api/postdata.php?pageno=2&contant=羽绒服女&callback1=dosht1"></script></div>
+ <script>
+ /*function addcontant(contant){
+ $(".goodsframe").append(contant[0]);
+ }*/
+ var pageno=3;
+ var flag=true;
+$(window).scroll(function(){
+		var scrollheight=$(this).scrollTop();
+		var docheight=$(document).height();
+		var winheight=$(window).height();
+		if((scrollheight+winheight)/docheight>0.85&&flag){
+			tt();
+			flag=false;
+			setTimeout(hha,500);
+		}
+	})
+function hha(){flag=true;}
+function tt(){
+var con='<script src="http://1.moblieshoptest.applinzi.com/api/postdata.php?pageno='+pageno+'&contant=羽绒服女&callback1=dosht1"><';
+			var con1="script>";
+			$(".tet").append(con+"/"+con1);
+			//alert(pageno);
+			pageno++;
+}
+ </script>
+<script>
+var t=document.getElementsByName("user_type");
+for(var i=0;i<t.length;i++){
+	if(t[i].getAttribute("data")==1){
+		t[i].src="../1.png";
+		}else{
+			t[i].src="../2.png";
+			}
+	}
+</script>
+   <script type="text/javascript">
+	var Browser=new Object(); 
+		Browser.userAgent=window.navigator.userAgent.toLowerCase();  
+		Browser.ie=/msie/.test(Browser.userAgent);  
+		Browser.Moz=/gecko/.test(Browser.userAgent);  
+  
+//判断是否加载完成  
+function Imagess(url,imgid,callback){      
+    var val=url;  
+    var img=new Image();  
+    if(Browser.ie){  
+        img.onreadystatechange =function(){    
+            if(img.readyState=="complete"||img.readyState=="loaded"){  
+                callback(img,imgid);  
+            }  
+        }          
+    }else if(Browser.Moz){  
+        img.onload=function(){  
+            if(img.complete==true){  
+                callback(img,imgid);  
+            }  
+        }          
+    }      
+    //如果因为网络或图片的原因发生异常，则显示该图片  
+   // img.onerror=function(){img.src="http://www.86y.org/images/failed.png"}  
+    img.src=val;  
+}  
+  
+//显示图片  
+function checkimg(obj,imgid){  
+document.getElementById(imgid).style.cssText="";  
+document.getElementById(imgid).src=obj.src;  
+}  
+//初始化需要显示的图片，并且指定显示的位置  
+window.onload=function(){  
+var imglist=document.getElementsByName("pic");  
+for(i=0;i<imglist.length;i++)  
+{  
+    imglist[i].id="img0"+i;  
+    //imglist[i].src="loading.gif";  
+    imglist[i].style.cssText="background:url(../loading.gif) no-repeat center center;"  
+    Imagess(imglist[i].getAttribute("data"),imglist[i].id,checkimg);  
+}  
+} 
+</script>  
+<script>
+htmlobj=$.ajax({url:"../top/tbkjs.html",async:false});
+document.write(htmlobj.responseText);
+</script>
+</body>
+</html>

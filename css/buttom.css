@@ -1,0 +1,4 @@
+.buttomdiv{color:#f5f5f5;padding-bottom:50px;padding-top:10px; bgcolor:#FAFAFA}
+.buttomspan{border:solid;border-width:thin;border-color:#999;background-color:transparent;width:34px;height:34px; color:#000;cursor:pointer}
+.buttomspan:hover{background-color:#F33; color:#f5f5f5}
+.tp{background-color:#F33;color:#f5f5f5;cursor:default;}
