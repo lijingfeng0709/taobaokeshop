@@ -26,8 +26,8 @@ $(".goodsframe").append(jsondata[0]);
 }
 </script>
 <div class="tet">
-<script  src="http://1.moblieshoptest.applinzi.com/inidata.php?contant=高跟鞋&callback1=dosht"></script></div>
-<script  src="http://1.moblieshoptest.applinzi.com/postdata.php?pageno=2&contant=高跟鞋&callback1=dosht1"></script></div>
+<script  src="http://1.moblieshoptest.applinzi.com/api/inidata.php?contant=高跟鞋&callback1=dosht"></script></div>
+<script  src="http://1.moblieshoptest.applinzi.com/api/postdata.php?pageno=2&contant=高跟鞋&callback1=dosht1"></script></div>
  <script>
  /*function addcontant(contant){
  $(".goodsframe").append(contant[0]);
@@ -46,7 +46,7 @@ $(window).scroll(function(){
 	})
 function hha(){flag=true;}
 function tt(){
-var con='<script src="http://1.moblieshoptest.applinzi.com/postdata.php?pageno='+pageno+'&contant=高跟鞋&callback1=dosht1"><';
+var con='<script src="http://1.moblieshoptest.applinzi.com/api/postdata.php?pageno='+pageno+'&contant=高跟鞋&callback1=dosht1"><';
 			var con1="script>";
 			$(".tet").append(con+"/"+con1);
 			//alert(pageno);
